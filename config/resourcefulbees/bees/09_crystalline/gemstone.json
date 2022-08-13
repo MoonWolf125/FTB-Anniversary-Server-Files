@@ -1,0 +1,32 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "customCombDrop": "resourcefulbees:crystalline_honeycomb",
+    "customCombBlockDrop": "resourcefulbees:crystalline_honeycomb_block",
+    "baseLayerTexture": "ores/custom/custom_bee",
+    "ColorData": {
+        "primaryColor": "0x4a4ddf",
+        "secondaryColor": "0x448adf",
+        "isBeeColored": true,
+        "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+        "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+        "isGlowing": true,
+        "glowColor": "#c88cc8",
+        "modelType": "QUEEN"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 31,
+        "breedChance": 0.6,
+        "parent1": "crystalline",
+        "parent2": "resourceful",
+        "feedItem": "tag:forge:gems/prismarine",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

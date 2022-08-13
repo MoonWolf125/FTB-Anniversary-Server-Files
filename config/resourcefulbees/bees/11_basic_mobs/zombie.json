@@ -1,0 +1,31 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "zombie/zombie_bee",
+    "traits": ["can_swim", "zombie"],
+    "ColorData": {
+        "honeycombColor": "#2f4e32",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+        "mainOutput": "minecraft:rotten_flesh",
+        "mainOutputCount": 1
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 5,
+        "breedChance": 0.8,
+        "parent1": "uncanny, uncanny",
+        "parent2": "common, forest",
+        "feedItem": "minecraft:rotten_flesh",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

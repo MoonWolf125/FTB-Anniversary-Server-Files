@@ -1,0 +1,34 @@
+{
+    "flower": "all",
+    "hasHoneycomb": false,
+    "traits": ["slimy"],
+    "maxTimeInHive": 1200,
+    "baseLayerTexture": "slime/slime_bee",
+    "ColorData": {
+        "honeycombColor": "#73c262",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false,
+        "modelType": "GELATINOUS",
+        "gelLayerTexture": "/slime/slime_gel_Layer"
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationInput": "minecraft:honey_block",
+        "mutationOutput": "minecraft:slime_block",
+        "mutationType": "BLOCK_TO_BLOCK",
+        "mutationCount": 15
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 1,
+        "parent1": "rocky",
+        "parent2": "tropical",
+        "feedItem": "tag:forge:slimeballs",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "0x303030",
+        "secondaryColor": "0x1a1a1a",
+        "honeycombColor": "0x303030",
+        "isBeeColored": true
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "parent1": "industrious",
+        "parent2": "sandy",
+        "feedItem": "tag:forge:silicon",
+        "feedAmount": 8
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

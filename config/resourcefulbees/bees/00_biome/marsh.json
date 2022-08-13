@@ -1,0 +1,33 @@
+{
+    "flower": "ALL",
+    "lore": "It ain't the sharpest tool in the shed...",
+    "loreColor": "#555500",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim", "zombie"],
+    "hasHoneycomb": true,
+    "customCombDrop": "minecraft:honeycomb",
+    "customCombBlockDrop": "minecraft:honeycomb_block",
+    "ColorData": {
+        "primaryColor": "#555500",
+        "secondaryColor": "#201f24",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:swamp, wet",
+        "biomeBlacklist": "tag:ocean, nether, end, sandy"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 2,
+        "parent1": "marsh, marsh, marsh, marsh, marsh",
+        "parent2": "common, forest, winter, desert, tropical",
+        "feedItem": "all",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

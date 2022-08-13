@@ -1,0 +1,28 @@
+{
+    "hunger": 5,
+    "honeyColor": "#323b43",
+    "saturation": 0.8,
+    "isRainbow": false,
+    "honeyBlockRecipe": true,
+    "generateHoneyBlock": true,
+    "effects": [
+        {
+            "effectID": "minecraft:speed",
+            "duration": 600,
+            "strength": 0,
+            "chance": 0.6
+        },
+        {
+            "effectID": "minecraft:fire_resistance",
+            "duration": 400,
+            "strength": 1,
+            "chance": 0.4
+        },
+        {
+            "effectID": "minecraft:absorption",
+            "duration": 200,
+            "strength": 2,
+            "chance": 0.2
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "blessed",
+    "hunger": 3,
+    "honeyColor": "0xc5dffe",
+    "saturation": 1,
+    "isRainbow": false,
+    "honeyBlockRecipe": true,
+    "generateHoneyBlock": true,
+    "effects": [
+        {
+            "effectID": "minecraft:strength",
+            "duration": 2400,
+            "strength": 1,
+            "chance": 0.2
+        },
+        {
+            "effectID": "minecraft:weakness",
+            "duration": 600,
+            "strength": 1,
+            "chance": 0.1
+        }
+    ]
+}

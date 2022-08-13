@@ -1,0 +1,23 @@
+{
+    "name": "poisonous",
+    "hunger": 3,
+    "honeyColor": "0x414a6a",
+    "saturation": 1,
+    "isRainbow": false,
+    "honeyBlockRecipe": true,
+    "generateHoneyBlock": true,
+    "effects": [
+        {
+            "effectID": "minecraft:regeneration",
+            "duration": 2400,
+            "strength": 1,
+            "chance": 0.2
+        },
+        {
+            "effectID": "minecraft:poison",
+            "duration": 600,
+            "strength": 1,
+            "chance": 0.1
+        }
+    ]
+}

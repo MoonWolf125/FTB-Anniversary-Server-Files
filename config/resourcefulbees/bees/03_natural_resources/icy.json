@@ -1,0 +1,34 @@
+{
+    "flower": "all",
+    "hasHoneycomb": false,
+    "traits": ["can_swim"],
+    "maxTimeInHive": 1200,
+    "sizeModifier": 0.75,
+    "baseLayerTexture": "03_natural_resources/icy",
+    "ColorData": {
+        "honeycombColor": "#7ba7e9",
+        "isBeeColored": false,
+        "modelType": "GELATINOUS"
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationInput": "minecraft:water",
+        "mutationOutput": "minecraft:ice",
+        "mutationType": "FLUID_TO_BLOCK",
+        "mutationCount": 20
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": false
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "parent1": "aqueous",
+        "parent2": "winter",
+        "feedItem": "minecraft:ice",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

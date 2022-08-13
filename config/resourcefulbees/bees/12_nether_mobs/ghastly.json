@@ -1,0 +1,26 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["nether", "can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#efefef",
+        "secondaryColor": "#dfcece",
+        "honeycombColor": "#efefef",
+        "isBeeColored": true,
+        "model": "ARMORED"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "igneous",
+        "parent2": "creeper",
+        "feedItem": "minecraft:ghast_tear",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "flower": "minecraft:wither_rose",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "baseLayerTexture": "wither/wither_bee",
+    "traits": ["nether", "wither", "can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "isBeeColored": false,
+        "honeycombColor": "#0a0a0a"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "glowstone",
+        "parent2": "skeletal",
+        "feedItem": "xreliquary:withered_rib",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

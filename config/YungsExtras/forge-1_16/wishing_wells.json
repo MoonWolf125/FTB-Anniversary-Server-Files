@@ -1,0 +1,10 @@
+{
+    "lootBlockChances": {
+        "entries": {
+            "emendatusenigmatica:gold_ore": 0.5,
+            "emendatusenigmatica:emerald_ore": 0.05,
+            "minecraft:gold_block": 0.01
+        },
+        "defaultBlock": "minecraft:sandstone"
+    }
+}

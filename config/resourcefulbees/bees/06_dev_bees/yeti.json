@@ -1,0 +1,52 @@
+{
+    "flower": "minecraft:snow_block",
+    "maxTimeInHive": 6000,
+    "sizeModifier": 1.25,
+    "creator": "Joosh",
+    "lore": "A pretty §ocool§r bee.\nHe's here to bee your best friend :)",
+    "loreColor": "#ADD8E6",
+    "traits": ["oreo", "can_swim"],
+    "baseLayerTexture": "/yeti/yeti_bee",
+    "hasHoneycomb": false,
+    "ColorData": {
+        "primaryColor": "#E9F4F6",
+        "secondaryColor": "#777E86",
+        "honeycombColor": "#E9F4F6",
+        "isBeeColored": false,
+        "modelType": "YETI"
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": false,
+        "attackDamage": 0
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:rare",
+        "biomeBlacklist": "",
+        "spawnWeight": 2,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "lightLevel": "DAY"
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationInput": "minecraft:water",
+        "mutationOutput": "minecraft:ice",
+        "mutationType": "FLUID_TO_BLOCK",
+        "mutationCount": 20
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.6,
+        "parent1": "icy",
+        "parent2": "winter",
+        "feedItem": "minecraft:packed_ice",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

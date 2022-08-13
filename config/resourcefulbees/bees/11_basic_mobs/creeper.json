@@ -1,0 +1,49 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 0.9,
+    "baseLayerTexture": "/creeper/creeper_bee",
+    "traits": ["can_swim", "creeper"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "honeycombColor": "#0c9f0a",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": true,
+        "isEnchanted": false,
+        "glowColor": "#e2d3d3",
+        "glowingPulse": 2,
+        "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
+    },
+    "MutationData": {
+        "mutations": [
+            {
+                "type": "FLUID_TO_BLOCK",
+                "inputID": "tag:minecraft:lava",
+                "outputs": [
+                    {
+                        "outputID": "minecraft:mossy_cobblestone",
+                        "weight": 10
+                    }
+                ]
+            }
+        ]
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+        "mainOutput": "minecraft:gunpowder",
+        "mainOutputCount": 1
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "uncanny, uncanny",
+        "parent2": "common, desert",
+        "feedItem": "minecraft:gunpowder",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

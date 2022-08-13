@@ -1,0 +1,34 @@
+{
+    "flower": "tag:minecraft:underwater_bonemeals",
+    "lore": "♪ And I watched the water unfold... ♪",
+    "loreColor": "#4774ad",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "/01_elemental/aqueous",
+    "ColorData": {
+        "honeycombColor": "#4774ad",
+        "isBeeColored": false,
+        "modelType": "GELATINOUS"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:beach, river, wet",
+        "biomeBlacklist": "tag:nether, end, ocean",
+        "spawnWeight": 6,
+        "minYLevel": 48,
+        "maxYLevel": 112,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "lightLevel": "DAY"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "minecraft:kelp",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

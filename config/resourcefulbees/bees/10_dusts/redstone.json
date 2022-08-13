@@ -1,0 +1,28 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#ff5d4a",
+        "secondaryColor": "#930A19",
+        "honeycombColor": "#ff5d4a",
+        "isBeeColored": true,
+        "isGlowing": true,
+        "glowColor": "#930A19",
+        "modelType": "NORMAL"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "cinnabar",
+        "parent2": "coarse",
+        "feedItem": "tag:forge:dusts/redstone",
+        "feedAmount": 8
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

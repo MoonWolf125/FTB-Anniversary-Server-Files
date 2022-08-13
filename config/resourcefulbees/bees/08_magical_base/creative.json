@@ -1,0 +1,38 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 600,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "isBeeColored": true,
+        "honeycombColor": "#ffffff",
+        "isRainbowBee": true,
+        "isGlowing": true
+    },
+    "MutationData": {},
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+        "mainOutput": "minecraft:red_dye",
+        "secondaryOutput": "minecraft:green_dye",
+        "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
+        "bottleOutputWeight": 0.125
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "spawnWeight": 1,
+        "biomeWhitelist": "TAG:overworld",
+        "biomeBlacklist": "tag:ocean"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.9,
+        "parent1": "curious",
+        "parent2": "forest",
+        "feedItem": "resourcefulbees:rainbow_honey_bottle",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#7a7a7a",
+        "secondaryColor": "#212121",
+        "honeycombColor": "#7a7a7a",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 4,
+        "breedChance": 0.9,
+        "parent1": "earthen",
+        "parent2": "rocky",
+        "feedItem": "minecraft:flint",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

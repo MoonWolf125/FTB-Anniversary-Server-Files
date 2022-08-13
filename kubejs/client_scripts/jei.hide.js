@@ -1,0 +1,571 @@
+// priority: 100
+onEvent("jei.hide.items", event => {
+	event.hide(
+			/emendatusenigmatica:(osmium|cobalt|certus_quartz|charged_certus_quartz|fluorite|bitumen|potassium_nitrate|dimensional|fluix|cast_iron|lithium|thallasium|regalium|utherium|froststeel|cloggrum|nebu|iesnium)_.*/
+	);
+
+	event.hide(
+			/emendatusenigmatica:.*_(andesite|granite|diorite|sand|gravel|blackstone|basalt|soul_soil|end_stone|gabbro|c_limestone|scoria|weathered_limestone|jasper|marble|slate|deepslate|mossy_stone|brimstone|subzero_ash|blue_netherrack|nylium_soul_soil|ether_stone|cryptic_stone|flavolite|sulphuric_rock|violecite|raw_marble)_ore/
+	);
+
+	event.hide(/emendatusenigmatica:.*_(clump|crystal|dirty_dust|shard|cluster|gravel)/);
+	event.hide("emendatusenigmatica:quartz_ore");
+
+	// Hide all ore blocks
+	event.hide(/emendatusenigmatica:.+_ore/);
+
+	event.hide("immersiveengineering:ore_aluminum");
+	event.hide("immersiveengineering:plate_aluminum");
+	event.hide("immersiveengineering:dust_aluminum");
+	event.hide("immersiveengineering:storage_aluminum");
+	event.hide("immersiveengineering:ingot_aluminum");
+	event.hide("immersiveengineering:nugget_aluminum");
+
+	event.hide("immersiveengineering:ore_copper");
+	event.hide("immersiveengineering:plate_copper");
+	event.hide("immersiveengineering:dust_copper");
+	event.hide("immersiveengineering:storage_copper");
+	event.hide("immersiveengineering:ingot_copper");
+	event.hide("immersiveengineering:nugget_copper");
+	event.hide("immersiveengineering:slab_storage_copper");
+
+	event.hide("projectred-exploration:copper_ore");
+	event.hide("projectred-exploration:copper_block");
+	event.hide("projectred-core:copper_ingot");
+
+	event.hide("thermal:copper_ore");
+	event.hide("thermal:copper_plate");
+	event.hide("thermal:copper_gear");
+	event.hide("thermal:copper_dust");
+	event.hide("thermal:copper_block");
+	event.hide("thermal:copper_ingot");
+	event.hide("thermal:copper_nugget");
+
+	event.hide("projectred-exploration:tin_ore");
+	event.hide("projectred-exploration:tin_block");
+	event.hide("projectred-core:tin_ingot");
+
+	event.hide("thermal:tin_block");
+	event.hide("thermal:tin_ingot");
+	event.hide("thermal:tin_nugget");
+	event.hide("thermal:tin_dust");
+	event.hide("thermal:tin_gear");
+	event.hide("thermal:tin_plate");
+	event.hide("thermal:tin_ore");
+
+	event.hide("immersiveengineering:plate_silver");
+	event.hide("immersiveengineering:dust_silver");
+	event.hide("immersiveengineering:ore_silver");
+	event.hide("immersiveengineering:storage_silver");
+	event.hide("immersiveengineering:nugget_silver");
+	event.hide("immersiveengineering:ingot_silver");
+	event.hide("immersiveengineering:slab_storage_silver");
+
+	event.hide("projectred-core:silver_ingot");
+	event.hide("projectred-exploration:silver_ore");
+	event.hide("projectred-exploration:silver_block");
+
+	event.hide("thermal:silver_ore");
+	event.hide("thermal:silver_block");
+	event.hide("thermal:silver_ingot");
+	event.hide("thermal:silver_nugget");
+	event.hide("thermal:silver_dust");
+	event.hide("thermal:silver_gear");
+	event.hide("thermal:silver_plate");
+
+	event.hide("immersiveengineering:plate_lead");
+	event.hide("immersiveengineering:dust_lead");
+	event.hide("immersiveengineering:ore_lead");
+	event.hide("immersiveengineering:storage_lead");
+	event.hide("immersiveengineering:nugget_lead");
+	event.hide("immersiveengineering:ingot_lead");
+	event.hide("immersiveengineering:slab_storage_lead");
+
+	event.hide("thermal:lead_ore");
+	event.hide("thermal:lead_block");
+	event.hide("thermal:lead_ingot");
+	event.hide("thermal:lead_nugget");
+	event.hide("thermal:lead_dust");
+	event.hide("thermal:lead_gear");
+	event.hide("thermal:lead_plate");
+
+	event.hide("emendatusenigmatica:lead_fragment");
+	event.hide("emendatusenigmatica:lead_gravel");
+
+	event.hide("immersiveengineering:plate_nickel");
+	event.hide("immersiveengineering:dust_nickel");
+	event.hide("immersiveengineering:ore_nickel");
+	event.hide("immersiveengineering:storage_nickel");
+	event.hide("immersiveengineering:nugget_nickel");
+	event.hide("immersiveengineering:ingot_nickel");
+	event.hide("immersiveengineering:slab_storage_nickel");
+
+	event.hide("thermal:nickel_ore");
+	event.hide("thermal:nickel_block");
+	event.hide("thermal:nickel_ingot");
+	event.hide("thermal:nickel_nugget");
+	event.hide("thermal:nickel_dust");
+	event.hide("thermal:nickel_gear");
+	event.hide("thermal:nickel_plate");
+
+	event.hide("immersiveengineering:plate_uranium");
+	event.hide("immersiveengineering:dust_uranium");
+	event.hide("immersiveengineering:ore_uranium");
+	event.hide("immersiveengineering:storage_uranium");
+	event.hide("immersiveengineering:nugget_uranium");
+	event.hide("immersiveengineering:ingot_uranium");
+	event.hide("immersiveengineering:slab_storage_uranium");
+
+	event.hide('create:copper_ore');
+	event.hide('create:copper_ingot');
+	event.hide('create:copper_nugget');
+	event.hide('create:copper_sheet');
+	event.hide('create:copper_block');
+
+	event.hide('create:brass_ingot');
+	event.hide('create:brass_nugget');
+	event.hide('create:brass_sheet');
+	event.hide('create:brass_block');
+
+	event.hide('create:zinc_ore');
+	event.hide('create:zinc_nugget');
+	event.hide('create:zinc_ingot');
+	event.hide('create:zinc_block');
+
+	event.hide("thermal:apatite_ore");
+	event.hide("thermal:apatite_block");
+	event.hide("thermal:apatite");
+	event.hide("thermal:apatite_dust");
+
+	event.hide("thermal:sulfur_dust");
+	event.hide("thermal:sulfur");
+	event.hide("thermal:sulfur_block");
+	event.hide("thermal:sulfur_ore");
+	event.hide("immersiveengineering:dust_sulfur");
+
+	event.hide("thermal:cinnabar_ore");
+	event.hide("thermal:cinnabar_block");
+	event.hide("thermal:cinnabar");
+	event.hide("thermal:cinnabar_dust");
+
+	event.hide("immersiveengineering:plate_gold");
+	event.hide("immersiveengineering:dust_gold");
+	event.hide("thermal:gold_dust");
+	event.hide("thermal:gold_gear");
+	event.hide("thermal:gold_plate");
+	event.hide("titanium:gold_gear");
+	event.hide("minecraft:gold_ore");
+	event.hide("create:golden_sheet");
+
+	event.hide("titanium:iron_gear");
+	event.hide("immersiveengineering:plate_iron");
+	event.hide("immersiveengineering:dust_iron");
+	event.hide("immersiveengineering:stick_iron");
+	event.hide("thermal:iron_dust");
+	event.hide("thermal:iron_gear");
+	event.hide("thermal:iron_plate");
+	event.hide("minecraft:iron_ore");
+	event.hide("create:iron_sheet");
+
+	event.hide("minecraft:lapis_ore");
+	event.hide("thermal:lapis_dust");
+	event.hide("thermal:lapis_gear");
+
+	event.hide("minecraft:redstone_ore");
+
+	event.hide("minecraft:diamond_ore");
+	event.hide("thermal:diamond_dust");
+	event.hide("thermal:diamond_gear");
+	event.hide("titanium:diamond_gear");
+
+	event.hide("minecraft:nether_quartz_ore");
+	event.hide("thermal:quartz_dust");
+	event.hide("thermal:quartz_gear");
+
+	event.hide("minecraft:nether_gold_ore");
+	event.hide("minecraft:coal_ore");
+
+	event.hide("minecraft:emerald_ore");
+	event.hide("thermal:emerald_dust");
+	event.hide("thermal:emerald_gear");
+
+	event.hide("thermal:bronze_block");
+	event.hide("thermal:bronze_ingot");
+	event.hide("thermal:bronze_nugget");
+	event.hide("thermal:bronze_dust");
+	event.hide("thermal:bronze_gear");
+	event.hide("thermal:bronze_plate");
+	event.hide("thermal:constantan_ingot");
+	event.hide("thermal:constantan_nugget");
+	event.hide("thermal:constantan_dust");
+	event.hide("thermal:constantan_gear");
+	event.hide("thermal:constantan_plate");
+	event.hide("thermal:constantan_block");
+	event.hide("immersiveengineering:plate_constantan");
+	event.hide("immersiveengineering:dust_constantan");
+	event.hide("immersiveengineering:storage_constantan");
+	event.hide("immersiveengineering:nugget_constantan");
+	event.hide("immersiveengineering:ingot_constantan");
+	event.hide("immersiveengineering:slab_storage_constantan");
+	event.hide("immersiveengineering:plate_electrum");
+	event.hide("immersiveengineering:dust_electrum");
+	event.hide("immersiveengineering:storage_electrum");
+	event.hide("immersiveengineering:nugget_electrum");
+	event.hide("immersiveengineering:ingot_electrum");
+	event.hide("immersiveengineering:slab_storage_electrum");
+	event.hide("thermal:electrum_block");
+	event.hide("thermal:electrum_ingot");
+	event.hide("thermal:electrum_nugget");
+	event.hide("thermal:electrum_dust");
+	event.hide("thermal:electrum_gear");
+	event.hide("thermal:electrum_plate");
+	event.hide("immersiveengineering:plate_steel");
+	event.hide("immersiveengineering:dust_steel");
+	event.hide("immersiveengineering:storage_steel");
+	event.hide("immersiveengineering:nugget_steel");
+	event.hide("immersiveengineering:ingot_steel");
+	event.hide("immersiveengineering:slab_storage_steel");
+	event.hide("immersiveengineering:stick_steel");
+	event.hide("thermal:invar_block");
+	event.hide("thermal:invar_ingot");
+	event.hide("thermal:invar_nugget");
+	event.hide("thermal:invar_dust");
+	event.hide("thermal:invar_gear");
+	event.hide("thermal:invar_plate");
+	event.hide("thermal:signalum_ingot");
+	event.hide("thermal:signalum_nugget");
+	event.hide("thermal:signalum_block");
+	event.hide("thermal:signalum_dust");
+	event.hide("thermal:signalum_gear");
+	event.hide("thermal:signalum_plate");
+	event.hide("thermal:lumium_ingot");
+	event.hide("thermal:lumium_nugget");
+	event.hide("thermal:lumium_block");
+	event.hide("thermal:lumium_dust");
+	event.hide("thermal:lumium_gear");
+	event.hide("thermal:lumium_plate");
+	event.hide("thermal:enderium_block");
+	event.hide("thermal:enderium_ingot");
+	event.hide("thermal:enderium_nugget");
+	event.hide("thermal:enderium_dust");
+	event.hide("thermal:enderium_gear");
+	event.hide("thermal:enderium_plate");
+	event.hide("refinedstorage:silicon");
+	event.hide("immersiveengineering:coke");
+	event.hide("immersiveengineering:slab_coke");
+	event.hide("immersiveengineering:coal_coke");
+	event.hide("emendatusenigmatica:charcoal_dust");
+	event.hide("immersiveengineering:dust_coke");
+	event.hide("thermal:ender_pearl_dust");
+	event.hide("emendatusenigmatica:obsidian_dust");
+	event.hide("thermal:ender_pearl_dust");
+	event.hide("emendatusenigmatica:lithium_dust");
+	event.hide("immersiveengineering:dust_wood");
+	event.hide("thermal:sawdust");
+
+	event.hide(Item.of("ftblibrary:fluid_container").ignoreNBT());
+	event.hide("emendatusenigmatica:lapis_gear");
+	event.hide("emendatusenigmatica:quartz_gear");
+	event.hide("emendatusenigmatica:uranium_gear");
+	event.hide("emendatusenigmatica:enderium_gear");
+	event.hide("emendatusenigmatica:ruby_gear");
+	event.hide("emendatusenigmatica:sapphire_gear");
+	event.hide("emendatusenigmatica:peridot_gear");
+	event.hide("emendatusenigmatica:steel_gear");
+	event.hide("emendatusenigmatica:iridium_gear");
+	event.hide("emendatusenigmatica:aluminum_gear");
+	event.hide("emendatusenigmatica:gold_rod");
+	event.hide("emendatusenigmatica:diamond_rod");
+	event.hide("emendatusenigmatica:emerald_rod");
+	event.hide("emendatusenigmatica:lapis_rod");
+	event.hide("emendatusenigmatica:copper_rod");
+	event.hide("emendatusenigmatica:silver_rod");
+	event.hide("emendatusenigmatica:nickel_rod");
+	event.hide("emendatusenigmatica:uranium_rod");
+	event.hide("emendatusenigmatica:tin_rod");
+	event.hide("emendatusenigmatica:bronze_rod");
+	event.hide("emendatusenigmatica:constantan_rod");
+	event.hide("emendatusenigmatica:electrum_rod");
+	event.hide("emendatusenigmatica:lumium_rod");
+	event.hide("emendatusenigmatica:lapis_plate");
+	event.hide("emendatusenigmatica:uranium_plate");
+	event.hide("emendatusenigmatica:lead_rod");
+	event.hide("emendatusenigmatica:invar_rod");
+	event.hide("emendatusenigmatica:signalum_rod");
+	event.hide("emendatusenigmatica:ruby_rod");
+	event.hide("emendatusenigmatica:sapphire_rod");
+	event.hide("emendatusenigmatica:peridot_rod");
+	event.hide("emendatusenigmatica:iridium_rod");
+	event.hide("immersiveengineering:stick_aluminum");
+
+	event.hide("projectred-exploration:sapphire_ore");
+	event.hide("thermal:sapphire_ore");
+	event.hide("thermal:sapphire_dust");
+	event.hide("thermal:sapphire");
+	event.hide("thermal:sapphire_block");
+	event.hide("projectred-core:sapphire");
+	event.hide("projectred-exploration:sapphire_block");
+	event.hide("emendatusenigmatica:sapphire_plate");
+	event.hide("emendatusenigmatica:sapphire_gear");
+
+	event.hide("projectred-exploration:ruby_ore");
+	event.hide("thermal:ruby_ore");
+	event.hide("thermal:ruby_dust");
+	event.hide("thermal:ruby");
+	event.hide("thermal:ruby_block");
+	event.hide("projectred-core:ruby");
+	event.hide("projectred-exploration:ruby_block");
+	event.hide("emendatusenigmatica:ruby_plate");
+	event.hide("emendatusenigmatica:ruby_gear");
+
+	event.hide("projectred-exploration:peridot_ore");
+	event.hide("projectred-exploration:peridot_block");
+	event.hide("projectred-core:peridot");
+	event.hide("emendatusenigmatica:peridot_plate");
+	event.hide("emendatusenigmatica:peridot_gear");
+
+	event.hide("ars_nouveau:mana_gem");
+	event.hide("ars_nouveau:mana_gem_block");
+	event.hide("ars_nouveau:arcane_ore");
+	event.hide("emendatusenigmatica:arcane_fragment");
+
+	event.hide(/emendatusenigmatica:molten_.*_bucket/);
+	event.hide(/minecraft:.*_spawn_egg/);
+	event.hide(/resourcefulbees:.*_spawn_egg/);
+	event.hide(/twilightforest:.*_spawn_egg/);
+	event.hide(/thermal:.*_spawn_egg/);
+
+	event.hide("ars_nouveau:carbuncle_se");
+	event.hide("ars_nouveau:sylph_se");
+	event.hide("ars_nouveau:wilden_hunter_se");
+	event.hide("ars_nouveau:wilden_guardian_se");
+	event.hide("ars_nouveau:wilden_stalker_se");
+
+	event.hide(/emendatusenigmatica:(?:coal|diamond|emerald|lapis|redstone|quartz|cinnabar|apatite|peridot|ruby|sapphire|sulfur|arcane)_crushed/);
+	event.hide("create:crushed_osmium_ore");
+
+	//Modules not implemented yet
+	event.hide("powersuits:invisibility");
+	event.hide("powersuits:swim_assist");
+	event.hide("powersuits:sprint_assist");
+	event.hide("powersuits:shock_absorber");
+	event.hide("powersuits:parachute");
+	event.hide("powersuits:jump_assist");
+	event.hide("powersuits:jetpack");
+	event.hide("powersuits:jet_boots");
+	event.hide("powersuits:glider");
+	event.hide("powersuits:flight_control");
+	event.hide("powersuits:dim_rift_gen");
+	event.hide("powersuits:climb_assist");
+	event.hide("powersuits:mob_repulsor");
+	event.hide("powersuits:aqua_affinity");
+	event.hide("powersuits:silk_touch");
+	event.hide("powersuits:fortune");
+	event.hide("powersuits:climb_assist");
+
+	event.hide("thermal:creosote_bucket");
+	event.hide("thermal:rubber");
+	event.hide("thermal:cured_rubber");
+});
+
+onEvent("jei.hide.fluids", (event) => {
+	event.hide("emendatusenigmatica:molten_aluminum");
+	event.hide("emendatusenigmatica:molten_ancient_debris");
+	event.hide("emendatusenigmatica:molten_apatite");
+	event.hide("emendatusenigmatica:molten_arcane");
+	event.hide("emendatusenigmatica:molten_bitumen");
+	event.hide("emendatusenigmatica:molten_brass");
+	event.hide("emendatusenigmatica:molten_bronze");
+	event.hide("emendatusenigmatica:molten_certus_quartz");
+	event.hide("emendatusenigmatica:molten_charged_certus_quartz");
+	event.hide("emendatusenigmatica:molten_cinnabar");
+	event.hide("emendatusenigmatica:molten_cloggrum");
+	event.hide("emendatusenigmatica:molten_coal");
+	event.hide("emendatusenigmatica:molten_cobalt");
+	event.hide("emendatusenigmatica:molten_constantan");
+	event.hide("emendatusenigmatica:molten_copper");
+	event.hide("emendatusenigmatica:molten_diamond");
+	event.hide("emendatusenigmatica:molten_dimensional");
+	event.hide("emendatusenigmatica:molten_electrum");
+	event.hide("emendatusenigmatica:molten_emerald");
+	event.hide("emendatusenigmatica:molten_enderium");
+	event.hide("emendatusenigmatica:molten_fluix");
+	event.hide("emendatusenigmatica:molten_fluorite");
+	event.hide("emendatusenigmatica:molten_froststeel");
+	event.hide("emendatusenigmatica:molten_gold");
+	event.hide("emendatusenigmatica:molten_iesnium");
+	event.hide("emendatusenigmatica:molten_invar");
+	event.hide("emendatusenigmatica:molten_iron");
+	event.hide("emendatusenigmatica:molten_lapis");
+	event.hide("emendatusenigmatica:molten_lead");
+	event.hide("emendatusenigmatica:molten_lumium");
+	event.hide("emendatusenigmatica:molten_nebu");
+	event.hide("emendatusenigmatica:molten_nickel");
+	event.hide("emendatusenigmatica:molten_osmium");
+	event.hide("emendatusenigmatica:molten_potassium_nitrate");
+	event.hide("emendatusenigmatica:molten_quartz");
+	event.hide("emendatusenigmatica:molten_redstone");
+	event.hide("emendatusenigmatica:molten_regalium");
+	event.hide("emendatusenigmatica:molten_signalum");
+	event.hide("emendatusenigmatica:molten_silver");
+	event.hide("emendatusenigmatica:molten_steel");
+	event.hide("emendatusenigmatica:molten_sulfur");
+	event.hide("emendatusenigmatica:molten_thallasium");
+	event.hide("emendatusenigmatica:molten_tin");
+	event.hide("emendatusenigmatica:molten_uranium");
+	event.hide("emendatusenigmatica:molten_utherium");
+	event.hide("emendatusenigmatica:molten_zinc");
+	event.hide("emendatusenigmatica:molten_ruby");
+	event.hide("emendatusenigmatica:molten_sapphire");
+	event.hide("emendatusenigmatica:molten_cast_iron");
+	event.hide("emendatusenigmatica:molten_iridium");
+
+	event.hide("thermal:creosote");
+});
+
+/*
+ars_nouveau:apparatus
+ars_nouveau:glyph_recipe
+create:automatic_brewing
+create:automatic_packing
+create:automatic_shaped
+create:automatic_shapeless
+create:block_cutting
+create:crushing
+create:deploying
+create:draining
+create:fan_blasting
+create:fan_smoking
+create:fan_washing
+create:mechanical_crafting
+create:milling
+create:mixing
+create:mystery_conversion
+create:packing
+create:pressing
+create:sandpaper_polishing
+create:sawing
+create:sequenced_assembly
+create:spout_filling
+farmersdelight:cooking
+farmersdelight:cutting
+farmersdelight:decomposition
+ftbic:canning
+ftbic:compressing
+ftbic:extruding
+ftbic:macerating
+ftbic:reprocessing
+ftbic:rolling
+ftbic:separating
+immersiveengineering:alloysmelter
+immersiveengineering:arcfurnace
+immersiveengineering:arcfurnace_recycling
+immersiveengineering:blastfurnace
+immersiveengineering:blastfurnace_fuel
+immersiveengineering:bottlingmachine
+immersiveengineering:cloche
+immersiveengineering:cokeoven
+immersiveengineering:crusher
+immersiveengineering:fermenter
+immersiveengineering:metalpress
+immersiveengineering:mixer
+immersiveengineering:refinery
+immersiveengineering:sawmill
+immersiveengineering:squeezer
+immersiveengineering:workbench
+industrialforegoing:bioreactor
+industrialforegoing:dissolution_chamber
+industrialforegoing:fluid_extractor
+industrialforegoing:laser_drill_fluid
+industrialforegoing:laser_drill_ore
+industrialforegoing:machine_produce
+industrialforegoing:mycelial_crimed
+industrialforegoing:mycelial_culinary
+industrialforegoing:mycelial_death
+industrialforegoing:mycelial_disenchantment
+industrialforegoing:mycelial_ender
+industrialforegoing:mycelial_explosive
+industrialforegoing:mycelial_frosty
+industrialforegoing:mycelial_furnace
+industrialforegoing:mycelial_halitosis
+industrialforegoing:mycelial_magma
+industrialforegoing:mycelial_meatallurgic
+industrialforegoing:mycelial_netherstar
+industrialforegoing:mycelial_pink
+industrialforegoing:mycelial_potion
+industrialforegoing:mycelial_slimey
+industrialforegoing:ore_fermenter
+industrialforegoing:ore_sieve
+industrialforegoing:ore_washer
+industrialforegoing:stonework
+industrialforegoing:stonework_generate
+jei:information
+jeresources:dungeon
+jeresources:enchantment
+jeresources:mob
+jeresources:plant
+jeresources:villager
+jeresources:worldgen
+minecraft:anvil
+minecraft:blasting
+minecraft:brewing
+minecraft:campfire
+minecraft:crafting
+minecraft:fuel
+minecraft:furnace
+minecraft:smithing
+minecraft:smoking
+minecraft:stonecutting
+resourcefulbees:apiary
+resourcefulbees:bee_pollination_flowers
+resourcefulbees:block_mutation
+resourcefulbees:breeding
+resourcefulbees:centrifuge
+resourcefulbees:entity_to_entity_mutation
+resourcefulbees:hive
+thermal:bottler
+thermal:brewer
+thermal:centrifuge
+thermal:chiller
+thermal:compression_fuel
+thermal:crucible
+thermal:furnace
+thermal:insolator
+thermal:insolator_catalyst
+thermal:lapidary_fuel
+thermal:magmatic_fuel
+thermal:numismatic_fuel
+thermal:press
+thermal:pulverizer
+thermal:pulverizer_catalyst
+thermal:pyrolyzer
+thermal:refinery
+thermal:rock_gen
+thermal:sawmill
+thermal:smelter
+thermal:smelter_catalyst
+thermal:stirling_fuel
+thermal:tree_extractor
+xreliquary:alkahestry_charging
+xreliquary:alkahestry_crafting
+xreliquary:cauldron
+xreliquary:infernal_tear
+xreliquary:mortar
+*/
+
+onEvent('jei.remove.categories', event => {
+	event.remove([
+		'create:automatic_packing',
+		'create:automatic_shaped',
+		'create:automatic_shapeless',
+		'create:block_cutting',
+		'create:fan_blasting',
+		'create:fan_smoking',
+		'immersiveengineering:arcfurnace_recycling',
+		'jeresources:dungeon',
+		'jeresources:enchantment',
+		'jeresources:mob',
+		'jeresources:plant',
+		'jeresources:villager',
+	])
+});

@@ -1,0 +1,22 @@
+{
+    "hunger": 3,
+    "honeyColor": "0x4aedd9",
+    "saturation": 1,
+    "isRainbow": false,
+    "honeyBlockRecipe": true,
+    "generateHoneyBlock": true,
+    "effects": [
+        {
+            "effectID": "minecraft:slow_falling",
+            "duration": 2400,
+            "strength": 0,
+            "chance": 0.2
+        },
+        {
+            "effectID": "minecraft:levitation",
+            "duration": 2400,
+            "strength": 0,
+            "chance": 0.2
+        }
+    ]
+}

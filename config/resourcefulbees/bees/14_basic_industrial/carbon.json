@@ -1,0 +1,45 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/custom/custom_bee",
+    "ColorData": {
+        "secondaryColor": "0x252525",
+        "honeycombColor": "0x252525",
+        "isBeeColored": true,
+        "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+        "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+        "modelType": "ORE"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "parent1": "industrious",
+        "parent2": "wooden",
+        "feedItem": "tag:minecraft:coals",
+        "feedAmount": 8
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationCount": 6,
+        "mutations": [
+            {
+                "type": "BLOCK",
+                "inputID": "tag:minecraft:logs",
+                "chance": 0.6,
+                "outputs": [{ "outputID": "thermal:charcoal_block", "weight": 10 }]
+            },
+            {
+                "type": "BLOCK",
+                "inputID": "tag:forge:storage_blocks/charcoal",
+                "chance": 0.4,
+                "outputs": [{ "outputID": "minecraft:coal_block", "weight": 10 }]
+            }
+        ]
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

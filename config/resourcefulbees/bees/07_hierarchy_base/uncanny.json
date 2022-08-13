@@ -1,0 +1,83 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": false,
+    "ColorData": {
+        "primaryColor": "#fafafa",
+        "secondaryColor": "#a4a4a4",
+        "honeycombColor": "#cdcdcd",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.75,
+        "parent1": "unwavering",
+        "parent2": "charmed",
+        "feedItem": "minecraft:fermented_spider_eye",
+        "feedAmount": 2
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationCount": 5,
+        "mutations": [
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:pig",
+                "outputs": [
+                    {
+                        "outputID": "entity:zombified_piglin"
+                    }
+                ]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:villager",
+                "outputs": [
+                    {
+                        "outputID": "entity:zombie_villager"
+                    }
+                ]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:zombie",
+                "outputs": [
+                    {
+                        "outputID": "entity:husk"
+                    }
+                ]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:skeleton",
+                "outputs": [
+                    {
+                        "outputID": "entity:stray"
+                    }
+                ]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:horse",
+                "chance": 0.4,
+                "outputs": [
+                    {
+                        "outputID": "entity:zombie_horse",
+                        "weight": 1
+                    },
+                    {
+                        "outputID": "entity:skeleton_horse",
+                        "weight": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

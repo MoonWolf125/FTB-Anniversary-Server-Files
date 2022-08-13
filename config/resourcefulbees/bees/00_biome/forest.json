@@ -1,0 +1,33 @@
+{
+    "flower": "ALL",
+    "lore": "Run, Forest Bee, Run!",
+    "loreColor": "#aaff7f",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "customCombDrop": "minecraft:honeycomb",
+    "customCombBlockDrop": "minecraft:honeycomb_block",
+    "ColorData": {
+        "primaryColor": "#aaff7f",
+        "secondaryColor": "#201f24",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:forest, coniferous, plains",
+        "biomeBlacklist": "tag:ocean, nether, end, swamp, hot"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 2,
+        "parent1": "forest, forest, forest, forest, forest",
+        "parent2": "common, winter, desert, tropical, marsh",
+        "feedItem": "all",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

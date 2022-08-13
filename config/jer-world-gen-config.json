@@ -1,0 +1,15 @@
+{
+	"block_whitelist": [
+		"#forge:ores"
+	],
+	"dimensions": {
+		"minecraft:overworld": true,
+		"minecraft:the_nether": true,
+		"minecraft:the_end": true,
+		"jamd:mining": false,
+		"twilightforest:skylight_forest": false,
+		"twilightforest:twilightforest": false
+	},
+	"height": 128,
+	"scan_radius": 25
+}

@@ -1,0 +1,24 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "03_natural_resources/mossy",
+    "ColorData": {
+        "honeycombColor": "#738552",
+        "isBeeColored": false,
+        "modelType": "ARMORED"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 1,
+        "parent1": "rocky",
+        "parent2": "tropical",
+        "feedItem": "tag:chisel:mossy_cobblestone",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

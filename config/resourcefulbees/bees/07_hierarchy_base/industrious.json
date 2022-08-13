@@ -1,0 +1,26 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#323b43",
+        "secondaryColor": "#fc761a",
+        "honeycombColor": "#323b43",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 2,
+        "breedChance": 0.6,
+        "parent1": "curious",
+        "parent2": "resourceful",
+        "feedItem": "tag:forge:ingots",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "flower": "ALL",
+    "lore": "It's coarse and rough, and it gets everywhere...",
+    "loreColor": "#fcb95b",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim", "desert"],
+    "hasHoneycomb": true,
+    "customCombDrop": "minecraft:honeycomb",
+    "customCombBlockDrop": "minecraft:honeycomb_block",
+    "ColorData": {
+        "primaryColor": "#fcb95b",
+        "secondaryColor": "#201f24",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:mesa, dry, sandy, savanna",
+        "biomeBlacklist": "tag:ocean, nether, end, jungle, swamp"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 2,
+        "parent1": "desert, desert, desert, desert, desert",
+        "parent2": "common, forest, winter, tropical, marsh",
+        "feedItem": "all",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

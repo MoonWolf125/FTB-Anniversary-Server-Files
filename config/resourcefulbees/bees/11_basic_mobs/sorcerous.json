@@ -1,0 +1,33 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 0.8,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#2f0000",
+        "secondaryColor": "#366a29",
+        "honeycombColor": "#2f0000",
+        "isBeeColored": true,
+        "isGlowing": true,
+        "glowColor": "#2f0000",
+        "modelType": "NORMAL"
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+        "mainOutput": "minecraft:brown_mushroom",
+        "mainOutputCount": 3
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 1,
+        "breedChance": 0.8,
+        "parent1": "uncanny, uncanny",
+        "parent2": "common, marsh",
+        "feedItem": "xreliquary:witch_hat",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

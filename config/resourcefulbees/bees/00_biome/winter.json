@@ -1,0 +1,33 @@
+{
+    "flower": "ALL",
+    "lore": "Brace yourselves, Winter Bee's coming...",
+    "loreColor": "#8fcbff",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim", "pigman"],
+    "hasHoneycomb": true,
+    "customCombDrop": "minecraft:honeycomb",
+    "customCombBlockDrop": "minecraft:honeycomb_block",
+    "ColorData": {
+        "primaryColor": "#8fcbff",
+        "secondaryColor": "#201f24",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:mountain, hills, snowy, coniferous, cold",
+        "biomeBlacklist": "tag:ocean, nether, end, hot, jungle, savanna, mesa, swamp, sandy"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 2,
+        "parent1": "winter, winter, winter, winter, winter",
+        "parent2": "common, forest, desert, tropical, marsh",
+        "feedItem": "all",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

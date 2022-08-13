@@ -1,0 +1,53 @@
+{
+    "flower": "minecraft:chorus_flower",
+    "lore": "♪ But in the end, it doesn't even matter! ♪",
+    "loreColor": "#258474",
+    "maxTimeInHive": 3600,
+    "sizeModifier": 1,
+    "traits": ["ender", "can_swim", "desert", "wither"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "01_elemental/ender",
+    "ColorData": {
+        "emissiveLayerTexture": "01_elemental/ender_emissive",
+        "honeycombColor": "#258474",
+        "isBeeColored": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 2
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutations": [
+            {
+                "type": "BLOCK",
+                "inputID": "tag:forge:stone",
+                "outputs": [
+                    {
+                        "outputID": "minecraft:end_stone",
+                        "weight": 10
+                    }
+                ]
+            }
+        ]
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:end",
+        "biomeBlacklist": "tag:overworld, nether",
+        "lightLevel": "NIGHT",
+        "minGroupSize": 1,
+        "maxGroupSize": 2,
+        "spawnWeight": 10
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "minecraft:ender_eye",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

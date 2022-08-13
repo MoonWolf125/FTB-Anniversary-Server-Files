@@ -1,0 +1,13 @@
+#The amount of power the compact solar module will produce
+compactSolarProduction = 5
+#The max amount of dynamites that can be held
+maxDynamites = 50
+#The amount of power the standard solar module will produce
+standardSolarProduction = 5
+#Disabled timed crafting
+disableTimedCrafting = false
+#The amount of power the basic solar module will produce
+basicSolarProduction = 2
+#Max drill size
+drillSize = 4
+

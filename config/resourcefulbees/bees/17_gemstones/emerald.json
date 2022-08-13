@@ -1,0 +1,40 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["sedimentary", "can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/custom/custom_bee",
+    "ColorData": {
+        "secondaryColor": "0x00aa2c",
+        "honeycombColor": "0x00aa2c",
+        "isBeeColored": true,
+        "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+        "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+        "modelType": "ORE"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "gemstone",
+        "parent2": "vexed",
+        "feedItem": "tag:forge:storage_blocks/emerald",
+        "feedAmount": 1
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationCount": 3,
+        "mutations": [
+            {
+                "type": "BLOCK",
+                "inputID": "resourcefulbees:crystal_honey_block",
+                "chance": 0.5,
+                "outputs": [{ "outputID": "resourcefulbees:emerald_honey_block", "weight": 10 }]
+            }
+        ]
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": false,
+    "ColorData": {
+        "primaryColor": "#0db33d",
+        "secondaryColor": "#0d9fb3",
+        "honeycombColor": "#0db33d",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 1.0,
+        "parent1": "creative",
+        "parent2": "mossy",
+        "feedItem": "minecraft:golden_carrot",
+        "feedAmount": 1
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationCount": 3,
+        "mutations": [
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:creeper",
+                "outputs": [
+                    {
+                        "outputID": "entity:creeper",
+                        "nbtData": { "powered": 1 }
+                    }
+                ]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:zombie_villager",
+                "outputs": [{ "outputID": "entity:villager" }]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:villager",
+                "outputs": [{ "outputID": "entity:witch" }]
+            },
+            {
+                "type": "ENTITY_TO_ENTITY",
+                "inputID": "entity:spider",
+                "outputs": [{ "outputID": "entity:cave_spider" }]
+            }
+        ]
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "flower": "ALL",
+    "baseLayerTexture": "/oreo/oreo_bee",
+    "maxTimeInHive": 6000,
+    "sizeModifier": 1.25,
+    "creator": "Epic_Oreo",
+    "lore": "A Delicious Bee",
+    "loreColor": "rainbow",
+    "traits": ["oreo"],
+    "hasHoneycomb": true,
+    "customCombDrop": "resourcefulbees:oreo_cookie",
+    "customCombBlockDrop": "resourcefulbees:oreo_cookie",
+    "apiaryOutputAmounts": [4, 8, 16, 32],
+    "ColorData": {
+        "primaryColor": "#442920",
+        "secondaryColor": "#e1d9b8",
+        "isBeeColored": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "attackDamage": 0
+    },
+    "MutationData": {
+        "hasMutation": false
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": false
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "spawnWeight": 2,
+        "biomeWhitelist": "tag:rare",
+        "biomeBlacklist": "",
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "lightLevel": "DAY"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.2,
+        "parent1": "curious",
+        "parent2": "resourceful",
+        "feedItem": "resourcefulbees:oreo_cookie",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

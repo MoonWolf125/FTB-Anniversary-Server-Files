@@ -1,0 +1,26 @@
+{
+    "hunger": 8,
+    "honeyColor": "#FFFFFF",
+    "saturation": 0.5,
+    "isRainbow": true,
+    "effects": [
+        {
+            "effectID": "minecraft:glowing",
+            "duration": 2400,
+            "strength": 0,
+            "chance": 1
+        },
+        {
+            "effectID": "minecraft:regeneration",
+            "duration": 600,
+            "strength": 2,
+            "chance": 0.25
+        },
+        {
+            "effectID": "minecraft:absorption",
+            "duration": 1200,
+            "strength": 3,
+            "chance": 0.1
+        }
+    ]
+}

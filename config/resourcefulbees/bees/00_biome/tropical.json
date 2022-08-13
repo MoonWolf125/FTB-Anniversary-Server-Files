@@ -1,0 +1,33 @@
+{
+    "flower": "ALL",
+    "lore": "\"The strength of the hive is the bee, and the strength of the bee is the hive.\"",
+    "loreColor": "#55ff7f",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "customCombDrop": "minecraft:honeycomb",
+    "customCombBlockDrop": "minecraft:honeycomb_block",
+    "ColorData": {
+        "primaryColor": "#55ff7f",
+        "secondaryColor": "#201f24",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:jungle, wet, hot",
+        "biomeBlacklist": "tag:ocean, nether, end, dry, sandy"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 2,
+        "parent1": "tropical, tropical, tropical, tropical, tropical",
+        "parent2": "common, forest, winter, desert, marsh",
+        "feedItem": "all",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "flower": "tag:minecraft:beds",
+    "baseLayerTexture": "/kitten/bee",
+    "maxTimeInHive": 600,
+    "sizeModifier": 0.75,
+    "creator": "Dawn Felstar",
+    "lore": "Cute little baby kitty bee.",
+    "loreColor": "rainbow",
+    "traits": ["kitten"],
+    "hasHoneycomb": true,
+    "customCombDrop": "resourcefulbees:catnip_honeycomb",
+    "customCombBlockDrop": "resourcefulbees:catnip_honeycomb_block",
+    "baseModelType": "KITTEN",
+    "ColorData": {
+        "primaryColor": "#EAA939",
+        "secondaryColor": "#4C483B",
+        "isBeeColored": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "attackDamage": 0
+    },
+    "MutationData": {
+        "hasMutation": false
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "spawnWeight": 2,
+        "biomeWhitelist": "tag:rare",
+        "biomeBlacklist": "",
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "lightLevel": "DAY"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.6,
+        "parent1": "tropical",
+        "parent2": "curious",
+        "feedItem": "tag:forge:raw_fishes",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

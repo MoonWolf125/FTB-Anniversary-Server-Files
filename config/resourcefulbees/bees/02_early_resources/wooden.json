@@ -1,0 +1,32 @@
+{
+    "flower": "tag:minecraft:saplings",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "02_early_resources/wooden",
+    "ColorData": {
+        "honeycombColor": "#5f4a2b",
+        "isBeeColored": false,
+        "modelType": "DEFAULT"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:overworld",
+        "biomeBlacklist": "tag:ocean",
+        "spawnWeight": 3,
+        "minYLevel": 64,
+        "maxYLevel": 128
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "parent1": "common, common, common, common, common",
+        "parent2": "forest, winter, desert, tropical, marsh",
+        "feedItem": "tag:minecraft:logs",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

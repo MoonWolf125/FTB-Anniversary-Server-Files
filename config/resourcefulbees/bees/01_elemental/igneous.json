@@ -1,0 +1,35 @@
+{
+    "flower": "tag:ftbees:nether_flowers",
+    "lore": "♪ I just can't help myself! ♪",
+    "loreColor": "#cc4108",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim", "nether"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "01_elemental/igneous",
+    "ColorData": {
+        "emissiveLayerTexture": "01_elemental/igneous_emissive",
+        "honeycombColor": "#cc4108",
+        "isBeeColored": false,
+        "modelType": "GELATINOUS"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:nether",
+        "biomeBlacklist": "tag:ocean, river, overworld, end",
+        "spawnWeight": 6,
+        "minYLevel": 32,
+        "maxYLevel": 96,
+        "minGroupSize": 1,
+        "maxGroupSize": 2,
+        "lightLevel": "NIGHT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "tag:ftbees:nether_flowers",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

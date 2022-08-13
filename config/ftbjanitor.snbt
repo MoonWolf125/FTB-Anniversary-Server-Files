@@ -1,0 +1,34 @@
+{
+	# Vanilla shrinks recipe patterns to try to optimise them, but it's sometimes breaking some modded recipes
+	# Default: false
+	disableRecipeShrinking: false
+	
+	# Forces spawn location and removes valid spawn check. [I; X, Y, Z]
+	# Default: []
+	forcedSpawnPos: [I; ]
+	
+	# Enables lazy DataFixerUpper
+	# Default: true
+	lazyDFU: true
+	
+	# Prints network errors in normal log rather than debug
+	# Default: false
+	logNetworkErrors: false
+	
+	# Prints new tag creation in console
+	# Default: false
+	logTagCreation: false
+	
+	# Print whenever a command is run. Used to catch /reload startup mods
+	# Default: false
+	printCommandStacktrace: false
+	
+	# Print whenever a reload is triggered
+	# Default: false
+	printReloadStacktrace: false
+	
+	# Increment this number every time you want to reset biomes in world
+	# Default: 0
+	# Range: 0 ~ 2147483647
+	refreshBiomes: 0
+}

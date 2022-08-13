@@ -1,0 +1,40 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/custom/custom_bee",
+    "ColorData": {
+        "secondaryColor": "0x799c46",
+        "honeycombColor": "0x799c46",
+        "isBeeColored": true,
+        "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+        "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+        "modelType": "ORE"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.7,
+        "parent1": "industrious",
+        "parent2": "ender",
+        "feedItem": "tag:forge:ingots/uranium",
+        "feedAmount": 8
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationCount": 4,
+        "mutations": [
+            {
+                "type": "BLOCK",
+                "inputID": "resourcefulbees:metallic_honey_block",
+                "chance": 0.8,
+                "outputs": [{ "outputID": "resourcefulbees:radioactive_honey_block", "weight": 10 }]
+            }
+        ]
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

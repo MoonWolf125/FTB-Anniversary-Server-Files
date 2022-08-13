@@ -1,0 +1,26 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#C6D2E6",
+        "secondaryColor": "#8a8a8a",
+        "honeycombColor": "#C6D2E6",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "wooden",
+        "parent2": "rocky",
+        "feedItem": "tag:forge:honey_bottle",
+        "feedAmount": 2
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

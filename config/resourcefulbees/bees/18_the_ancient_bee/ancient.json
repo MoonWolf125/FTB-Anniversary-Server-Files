@@ -1,0 +1,34 @@
+{
+    "flower": "ALL",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["nether", "wither", "can_swim"],
+    "hasHoneycomb": false,
+    "ColorData": {
+        "primaryColor": "#964B00",
+        "secondaryColor": "#212121",
+        "honeycombColor": "#964B00",
+        "isBeeColored": true,
+        "modelType": "QUEEN"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "charred",
+        "parent2": "diamond",
+        "feedItem": "tag:forge:ingots/netherite",
+        "feedAmount": 3
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationType": "FLUID_TO_BLOCK",
+        "mutationCount": 3,
+        "chance": 0.42,
+        "mutationInput": "resourcefulbees:luxurious_honey",
+        "mutationOutput": "minecraft:ancient_debris"
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

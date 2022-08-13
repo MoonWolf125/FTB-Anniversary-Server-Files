@@ -1,0 +1,27 @@
+{
+    "flower": "tag:forge:mushrooms",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.1,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "mushroom/bee_red",
+    "ColorData": {
+        "secondaryColor": "#CC9978",
+        "honeycombColor": "#FE2A2A",
+        "primaryColor": "#CC9978",
+        "isBeeColored": true,
+        "modelType": "MUSHROOM"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 15,
+        "breedChance": 0.8,
+        "parent1": "uncanny",
+        "parent2": "charmed",
+        "feedItem": "minecraft:mushroom_stew",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

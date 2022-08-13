@@ -1,0 +1,26 @@
+{
+    "flower": "tag:chisel:basalt",
+    "maxTimeInHive": 1200,
+    "sizeModifier": 1.0,
+    "traits": ["can_swim", "nether"],
+    "hasHoneycomb": true,
+    "ColorData": {
+        "primaryColor": "#3a211a",
+        "secondaryColor": "#0e0e0e",
+        "honeycombColor": "#3a211a",
+        "isBeeColored": true,
+        "modelType": "DEFAULT"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "breedWeight": 3,
+        "breedChance": 0.8,
+        "parent1": "coarse",
+        "parent2": "igneous",
+        "feedItem": "tag:chisel:basalt",
+        "feedAmount": 4
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}
